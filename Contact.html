@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact & Enrollment - Sharda Educational Hub</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+
+header{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.container{
+    max-width:1000px;
+    margin:30px auto;
+    padding:20px;
+}
+
+.section{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    margin-bottom:25px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.section h2{
+    margin-bottom:15px;
+    color:#2c3e50;
+}
+
+.contact-info p{
+    margin:10px 0;
+}
+
+form{
+    display:grid;
+    gap:15px;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+}
+
+button{
+    background:#3498db;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#217dbb;
+}
+
+footer{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Sharda Educational Hub</h1>
+    <p>Contact Us & Enrollment Form</p>
+</header>
+
+<div class="container">
+
+    <!-- Contact Section -->
+    <div class="section">
+        <h2>Contact Information</h2>
+
+        <div class="contact-info">
+            <p><strong>Institute:</strong> Sharda Educational Hub</p>
+            <p><strong>Phone:</strong> +91 7631013795, +91 7740977783</p>
+            <p><strong>Address:</strong>1st floor, co-operative bank,main road Hathiyakandh,patna, Bihar</p>
+        </div>
+    </div>
+
+    <!-- Enrollment Form -->
+    <div class="section">
+        <h2>Enrollment Form</h2>
+
+        <form>
+
+            <input type="text" placeholder="Student Name" required>
+
+            <input type="text" placeholder="Father's Name" required>
+
+            <input type="tel" placeholder="Mobile Number" required>
+
+            <input type="email" placeholder="Email Address">
+
+            <input type="date">
+
+            <select required>
+                <option value="">Select Course / Class</option>
+                <option>Junior Section</option>
+                <option>Class V</option>
+                <option>Class VI</option>
+                <option>Class VII</option>
+                <option>Class VIII</option>
+                <option>Class IX</option>
+                <option>Class X</option>
+            </select>
+
+            <textarea rows="4" placeholder="Address"></textarea>
+
+            <button type="submit">Submit Enrollment</button>
+
+        </form>
+    </div>
+
+</div>
+<center>
+    <a href="index.html"><button style="background-color: #3498db; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin: 20px;">Back to home</button></a>
+    </center>
+
+<footer>
+    <p>© 2026 Sharda Educational Hub. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
